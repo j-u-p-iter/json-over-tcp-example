@@ -3,6 +3,7 @@ const jot = require('json-over-tcp');
 const config = require('./config');
 
 const server = jot.createServer();
+
 const onConnect = (socket) => {
   console.log('Connect to server');
 
