@@ -1,0 +1,23 @@
+{
+  "name": "json-over-tcp-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-u-p-iter/json-over-tcp-example.git"
+  },
+  "author": "j.u.p.iter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-u-p-iter/json-over-tcp-example/issues"
+  },
+  "homepage": "https://github.com/j-u-p-iter/json-over-tcp-example#readme",
+  "dependencies": {
+    "json-over-tcp": "^0.3.2"
+  }
+}
